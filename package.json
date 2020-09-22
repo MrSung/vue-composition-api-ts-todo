@@ -23,7 +23,7 @@
     "@typescript-eslint/eslint-plugin": "4.2.0",
     "@typescript-eslint/parser": "4.2.0",
     "@vue/component-compiler-utils": "3.2.0",
-    "autoprefixer": "9.8.6",
+    "autoprefixer": "10.0.0",
     "babel-eslint": "10.1.0",
     "deepmerge": "4.2.2",
     "eslint": "7.2.0",
