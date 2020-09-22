@@ -255,6 +255,3 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 # End of https://www.gitignore.io/api/vue,node,nuxt,vuejs,nuxtjs,firebase,webstorm,visualstudiocode
-
-# GitHub pages action
-docs/
