@@ -33,7 +33,7 @@
     "eslint-import-resolver-parcel": "1.10.4",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-vue": "6.2.2",
+    "eslint-plugin-vue": "7.0.1",
     "fibers": "5.0.0",
     "parcel-bundler": "1.12.4",
     "postcss-modules": "3.2.0",
