@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "src/index.html",
   "engines": {
-    "node": "12.18.4"
+    "node": "14.15.3"
   },
   "scripts": {
     "dev": "parcel src/index.html",
