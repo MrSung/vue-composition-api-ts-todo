@@ -1,5 +1,7 @@
 # ToDo List with Vue 3 Composition API and TypeScript
 
+😣 **Written long ago and not really being maintained.**
+
 This is a complete remake of [ToDo MVC](http://todomvc.com/examples/vue/).
 
 ## Available Scripts
