@@ -19,6 +19,12 @@
   },
   "plugins": ["prettier", "vue"],
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -29,6 +35,8 @@
         "tsx": "never"
       }
     ],
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "error",
     "no-param-reassign": [
       "error",
       {
@@ -36,15 +44,8 @@
         "props": true
       }
     ],
-    "no-undef": 0,
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true
-      }
-    ],
-    "vue/no-v-html": 0,
-    "import/prefer-default-export": 0
+    "no-undef": "off",
+    "vue/no-v-html": "off"
   },
   "settings": {
     "import/resolver": {
