@@ -39,9 +39,7 @@ export default function setupTodoApp() {
     if (!(isActive || isCompleted)) return todoItems.value;
     return todoItems.value.filter((item) => (isActive ? !item.completed : item.completed));
   });
-  const numberOfItemsLeft = computed(() => {
-    return todoItems.value.filter((item) => !item.completed).length;
-  });
+  const numberOfItemsLeft = computed(() => todoItems.value.filter((item) => !item.completed).length);
   /**
    * Watch
    */

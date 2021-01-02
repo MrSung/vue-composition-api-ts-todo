@@ -33,6 +33,12 @@ export default defineComponent({
     TodoItemCheckboxLabel,
     TodoItemButtonDelete,
   },
+  directives: {
+    // ダブルクリックした際にfocusされて即時でinput可能にする
+    'todo-focus': (el, binding): void => {
+      if (binding.value) el.focus();
+    },
+  },
   props: {
     editable: {
       type: Boolean,
@@ -57,12 +63,6 @@ export default defineComponent({
     itemName: {
       type: String,
       required: true,
-    },
-  },
-  directives: {
-    // ダブルクリックした際にfocusされて即時でinput可能にする
-    'todo-focus': (el, binding): void => {
-      if (binding.value) el.focus();
     },
   },
   setup(props, { emit }) {
